@@ -3,6 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HealthyApetiteAdminPrototype.ViewModels;
+using HealthyApetiteAdminPrototype.ViewModels.ControlPanel;
+using HealthyApetiteAdminPrototype.ViewModels.Login;
+using HealthyApetiteAdminPrototype.ViewModels.RestaurantPromotions;
+using HealthyApetiteAdminPrototype.Views;
+using HealthyApetiteAdminPrototype.Views.ControlPanel;
+using HealthyApetiteAdminPrototype.Views.Login;
+using HealthyApetiteAdminPrototype.Views.RestaurantPromotions;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace HealthyApetiteAdminPrototype.Extensions
 {
@@ -30,76 +39,7 @@ namespace HealthyApetiteAdminPrototype.Extensions
             {
                 DataContext = s.GetRequiredService<ControlPanelViewModel>()
             });
-            // School Citizens
-            services.AddSingleton<SchoolCitizensViewModel>();
-            services.AddSingleton<SchoolCitizensView>(s => new SchoolCitizensView()
-            {
-                DataContext = s.GetRequiredService<SchoolCitizensViewModel>()
-            });
-
-            // Students
-            // School Citizens
-            services.AddSingleton<StudentViewModel>();
-            services.AddSingleton<StudentView>(s => new StudentView()
-            {
-                DataContext = s.GetRequiredService<StudentViewModel>()
-            });
-            //Teachers
-            services.AddSingleton<TeacherViewModel>();
-            services.AddSingleton<TeacherView>(s => new TeacherView()
-            {
-                DataContext = s.GetRequiredService<TeacherViewModel>()
-            });
-            //ShcoolClass
-            services.AddSingleton<SchoolClassesViewModel>();
-            services.AddSingleton<SchoolClassesView>(
-                s => new SchoolClassesView
-                {
-                    DataContext = s.GetRequiredService<SchoolClassesViewModel>()
-                });
-            //SchoolSubjects
-            services.AddSingleton<SchoolSubjectsView>();
-            services.AddSingleton<SchoolSubjectsView>(s => new SchoolSubjectsView()
-            {
-                DataContext = s.GetRequiredService<SchoolSubjectsView>()
-            });
-            //Parents
-            // School Citizens
-            services.AddSingleton<ParentViewModel>();
-            services.AddSingleton<ParentView>(s => new ParentView()
-            {
-                DataContext = s.GetRequiredService<ParentView>()
-            });
-            // School Grades
-            services.AddSingleton<SchoolGradesViewModel>();
-            services.AddSingleton<SchoolGradesView>(s => new SchoolGradesView()
-            {
-                DataContext = s.GetRequiredService<SchoolGradesViewModel>()
-            });
-            // CurrentClass
-            services.AddSingleton<CurrentClassViewModel>();
-            services.AddSingleton<CurrentClassView>(s => new CurrentClassView()
-            {
-                DataContext = s.GetRequiredService<CurrentClassViewModel>()
-            });
-            //TeachedClasses
-            services.AddSingleton<TeachedClassesViewModel>();
-            services.AddSingleton<TeachedClassesView>(s => new TeachedClassesView()
-            {
-                DataContext = s.GetRequiredService<TeachedClassesViewModel>()
-            });
-            //SemesterClosing
-            services.AddSingleton<SemesterClosingViewModel>();
-            services.AddSingleton<SemesterClosingView>(s => new SemesterClosingView()
-            {
-                DataContext = s.GetRequiredService<SemesterClosingViewModel>()
-            });
-            //EndOfYearClosing
-            services.AddSingleton<EndOfYearClosingViewModel>();
-            services.AddSingleton<EndOfYearClosingView>(s => new EndOfYearClosingView()
-            {
-                DataContext = s.GetRequiredService<EndOfYearClosingViewModel>()
-            });
+            
             // Restaurant Promotions
             services.AddSingleton<RestaurantPromotionsViewModel>();
             services.AddSingleton<RestaurantPromotionsView>(s => new RestaurantPromotionsView()

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k7kYBLBOS7c=",
+  "dgSpecHash": "1rJMdEun3ew=",
   "success": true,
-  "projectFilePath": "C:\\Users\\c9czamat\\Desktop\\2024-12-12_WPF_Admin\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype.csproj",
+  "projectFilePath": "C:\\Users\\c9czamat\\Desktop\\2024-12-12_HAAP\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\c9czamat\\.nuget\\packages\\communitytoolkit.mvvm\\8.3.2\\communitytoolkit.mvvm.8.3.2.nupkg.sha512",
     "C:\\Users\\c9czamat\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",

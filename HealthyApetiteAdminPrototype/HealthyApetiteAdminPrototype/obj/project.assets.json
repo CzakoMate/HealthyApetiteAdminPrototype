@@ -1855,11 +1855,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\c9czamat\\Desktop\\2024-12-12_WPF_Admin\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype.csproj",
+      "projectUniqueName": "C:\\Users\\c9czamat\\Desktop\\2024-12-12_HAAP\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype.csproj",
       "projectName": "HealthyApetiteAdminPrototype",
-      "projectPath": "C:\\Users\\c9czamat\\Desktop\\2024-12-12_WPF_Admin\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype.csproj",
+      "projectPath": "C:\\Users\\c9czamat\\Desktop\\2024-12-12_HAAP\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype.csproj",
       "packagesPath": "C:\\Users\\c9czamat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\c9czamat\\Desktop\\2024-12-12_WPF_Admin\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\obj\\",
+      "outputPath": "C:\\Users\\c9czamat\\Desktop\\2024-12-12_HAAP\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

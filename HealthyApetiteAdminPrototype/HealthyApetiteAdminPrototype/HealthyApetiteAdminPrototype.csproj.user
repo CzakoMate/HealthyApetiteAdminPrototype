@@ -13,16 +13,43 @@
     <Compile Update="Views\Caption.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\ControlPanel\ControlPanelView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Header.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\LeftPanel.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Login\LoginView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\MainView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RestaurantPromotions\AddNewPromotionView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RestaurantPromotions\CurrentPromotionsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RestaurantPromotions\EditCurrentPromotionsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RestaurantPromotions\PreviousPromotionsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RestaurantPromotions\PromotionReportsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RestaurantPromotions\RestaurantPromotionsMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RestaurantPromotions\RestaurantPromotionsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\UserOptionControl.xaml.cs">
@@ -42,16 +69,43 @@
     <Page Update="Views\Caption.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\ControlPanel\ControlPanelView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Header.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\LeftPanel.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\Login\LoginView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\MainView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RestaurantPromotions\AddNewPromotionView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RestaurantPromotions\CurrentPromotionsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RestaurantPromotions\EditCurrentPromotionsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RestaurantPromotions\PreviousPromotionsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RestaurantPromotions\PromotionReportsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RestaurantPromotions\RestaurantPromotionsMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RestaurantPromotions\RestaurantPromotionsView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\UserOptionControl.xaml">
