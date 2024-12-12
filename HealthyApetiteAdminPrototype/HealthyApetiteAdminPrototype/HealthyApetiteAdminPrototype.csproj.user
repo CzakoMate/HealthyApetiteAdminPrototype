@@ -7,7 +7,54 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Controls\BindablePasswordBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Caption.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Header.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\LeftPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MainView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UserOptionControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Controls\BindablePasswordBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\ViewModelViewDataTamplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Caption.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Header.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\LeftPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UserOptionControl.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
