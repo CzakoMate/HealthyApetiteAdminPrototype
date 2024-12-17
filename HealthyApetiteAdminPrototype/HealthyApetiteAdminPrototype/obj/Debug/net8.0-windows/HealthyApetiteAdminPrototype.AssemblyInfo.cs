@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HealthyApetiteAdminPrototype")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02ad35201a7a0bb2fbc9f1b093023b9842ca4a5d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a029315c87f97b70418320ba0a1e857e7709381")]
 [assembly: System.Reflection.AssemblyProductAttribute("HealthyApetiteAdminPrototype")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HealthyApetiteAdminPrototype")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
