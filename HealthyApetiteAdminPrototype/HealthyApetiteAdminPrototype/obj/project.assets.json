@@ -1844,24 +1844,28 @@
       "CommunityToolkit.Mvvm >= 8.3.2",
       "FontAwesome >= 4.7.0",
       "FontAwesome.Sharp >= 6.6.0",
-      "Microsoft.Extensions.Hosting >= 9.0.0",
-      "Microsoft.Extensions.Hosting.Abstractions >= 9.0.0"
+      "Microsoft.Extensions.Hosting >= 9.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\c9czamat\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\HA_frontend\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype.csproj",
+      "projectUniqueName": "C:\\Users\\c9czamat\\Desktop\\HA_frontend\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype.csproj",
       "projectName": "HealthyApetiteAdminPrototype",
-      "projectPath": "C:\\Users\\Lenovo\\Desktop\\HA_frontend\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Desktop\\HA_frontend\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\obj\\",
+      "projectPath": "C:\\Users\\c9czamat\\Desktop\\HA_frontend\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype.csproj",
+      "packagesPath": "C:\\Users\\c9czamat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\c9czamat\\Desktop\\HA_frontend\\HealthyApetiteAdminPrototype\\HealthyApetiteAdminPrototype\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\c9czamat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1869,6 +1873,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1905,10 +1910,6 @@
             "version": "[6.6.0, )"
           },
           "Microsoft.Extensions.Hosting": {
-            "target": "Package",
-            "version": "[9.0.0, )"
-          },
-          "Microsoft.Extensions.Hosting.Abstractions": {
             "target": "Package",
             "version": "[9.0.0, )"
           }

@@ -21,6 +21,7 @@ namespace HealthyApetiteAdminPrototype.Controls
     /// </summary>
     public partial class BindablePasswordBox : UserControl
     {
+        public static readonly DependencyProperty PasswordProperty = DependencyProperty.Register("Password", typeof(SecureString), typeof(BindablePasswordBox));
         public BindablePasswordBox()
         {
             InitializeComponent();

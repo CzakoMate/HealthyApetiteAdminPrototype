@@ -9,23 +9,23 @@
         <controlPanelView:ControlPanelView/>
     </DataTemplate>
     <DataTemplate DataType="{x:Type restaurantPromotionsViewModels:RestaurantPromotionsViewModel}">
-        <restaurantPromotionsView:RestaurantPromotionsView/>
+        <restaurnatPromotionsView:RestaurantPromotionsView/>
     </DataTemplate>
 
     <DataTemplate DataType="{x:Type restaurantPromotionsViewModels:AddNewPromotionViewModel}">
-        <restaurantPromotionsView:AddNewPromotionView/>
+        <restaurnatPromotionsView:AddNewPromotionView/>
     </DataTemplate>
     <DataTemplate DataType="{x:Type restaurantPromotionsViewModels:CurrentPromotionsViewModel}">
-        <restaurantPromotionsView:CurrentPromotionsView/>
+        <restaurnatPromotionsView:CurrentPromotionsView/>
     </DataTemplate>
     <DataTemplate DataType="{x:Type restaurantPromotionsViewModels:EditCurrentPromotionsViewModel}">
-        <restaurantPromotionsView:EditCurrentPromotionsView/>
+        <restaurnatPromotionsView:EditCurrentPromotionsView/>
     </DataTemplate>
     <DataTemplate DataType="{x:Type restaurantPromotionsViewModels:PreviousPromotionsViewModel}">
-        <restaurantPromotionsView:PreviousPromotionsView/>
+        <restaurnatPromotionsView:PreviousPromotionsView/>
     </DataTemplate>
     <DataTemplate DataType="{x:Type restaurantPromotionsViewModels:PromotionReportsViewModel}">
-        <restaurantPromotionsView:PromotionReportsView/>
+        <restaurnatPromotionsView:PromotionReportsView/>
     </DataTemplate>
 </ResourceDictionary>
 
