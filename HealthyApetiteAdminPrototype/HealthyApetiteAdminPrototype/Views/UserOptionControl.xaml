@@ -23,11 +23,11 @@
                 Style="{StaticResource iconButtonIcon}"/>
         </Button>
         <TextBlock Text="{Binding CurrentUser.DisplayName}"
-        Foreground="{StaticResource titleColor3}"
+        Foreground="{StaticResource colorBlack}"
         FontSize="12"
         VerticalAlignment="Center"/>
         <Ellipse Height="25" Width="25"
-        Stroke="{StaticResource colorDarkGreen}"
+        Stroke="{StaticResource colorLightGray}"
         StrokeThickness="2"
         Margin="10,0,10,0">
             <Ellipse.Fill>
@@ -35,15 +35,15 @@
             </Ellipse.Fill>
         </Ellipse>
         <Button Style="{StaticResource iconButton}"
-        Tag="{StaticResource colorRed}">
+        Tag="{StaticResource colorBlack}">
             <fa:IconImage Icon="Clock" Style="{StaticResource iconButtonIcon}"/>
         </Button>
         <Button Style="{StaticResource iconButton}"
-        Tag="{StaticResource colorDarkRed}">
+        Tag="{StaticResource colorBlack}">
             <fa:IconImage Icon="Envelope" Style="{StaticResource iconButtonIcon}"/>
         </Button>
         <Button Style="{StaticResource iconButton}"
-        Tag="{StaticResource colorRed}">
+        Tag="{StaticResource colorBlack}">
             <fa:IconImage Icon="Bell" Style="{StaticResource iconButtonIcon}"/>
         </Button>
     </StackPanel>

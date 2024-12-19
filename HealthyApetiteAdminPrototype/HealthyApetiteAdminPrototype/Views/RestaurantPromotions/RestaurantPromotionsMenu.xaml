@@ -8,7 +8,7 @@
              xmlns:local="clr-namespace:HealthyApetiteAdminPrototype.Views.RestaurantPromotions"
              mc:Ignorable="d" 
              d:DesignHeight="30" d:DesignWidth="840">
-    <Border Background="{StaticResource backgroundColorThird}">
+    <Border Background="{StaticResource backgroundPrimaryColor}">
         <StackPanel Grid.Row="1" Orientation="Horizontal">
             <Button 
             Style="{StaticResource subMenuButton}"

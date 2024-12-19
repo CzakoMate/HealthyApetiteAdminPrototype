@@ -8,15 +8,15 @@
              xmlns:viewModels="clr-namespace:HealthyApetiteAdminPrototype.ViewModels"
                 d:DataContext="{d:DesignInstance Type=viewModels:MainViewModel, IsDesignTimeCreatable=True}"
              mc:Ignorable="d" 
-             d:DesignHeight="700" d:DesignWidth="250">
+             d:DesignHeight="800" d:DesignWidth="250">
 
-    <StackPanel>
-        <Border CornerRadius="0, 50, 40, 30">
+    <StackPanel Background="{StaticResource sideDivColor}">
+        <Border>
             <Border.Background>
-                <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
-                    <GradientStop Color="{StaticResource backgroundSecondaryColor2}" Offset="0.1"/>
-                    <GradientStop Color="{StaticResource backgroundPrimaryColor2}" Offset="0.5"/>
-                    <GradientStop Color="{StaticResource backgroundPrimaryColor1}" Offset="0.7"/>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="{StaticResource borderColor3}" Offset="0.1"/>
+                    <GradientStop Color="{StaticResource borderColor4}" Offset="0.5"/>
+                    <GradientStop Color="{StaticResource borderColor3}" Offset="0.7"/>
                 </LinearGradientBrush>
             </Border.Background>
             <StackPanel Orientation="Vertical">
@@ -27,7 +27,7 @@
                         Margin="0 10 0 10" 
                         >
                         <Ellipse Height="80" Width="80"
-                        Stroke="{StaticResource colorDarkGreen}"                            
+                        Stroke="{StaticResource colorLightGray}"                            
                         StrokeThickness="2"                                 
                         Margin="-1,-1,-1,-1">
                             <Ellipse.Fill>
@@ -38,7 +38,7 @@
                     <!--Menu Buttons-->
                     <RadioButton 
                     Style="{StaticResource menuButton}"
-                    Tag="{StaticResource colorGreen}"                                 
+                    Tag="{StaticResource colorLightGray}"                                 
                     IsChecked="True"
                     Command="{Binding ShowDashbordCommand}"
                     >
@@ -49,7 +49,7 @@
                     </RadioButton>
                     <RadioButton
                     Style="{StaticResource menuButton}"
-                    Tag="{StaticResource colorMidleGreen}"
+                    Tag="{StaticResource colorLightGray}"
                     Command="{Binding ShowSchoolCitizensCommand}"                    
                  >
                         <StackPanel Orientation="Horizontal">
@@ -59,7 +59,7 @@
                     </RadioButton>
                     <RadioButton 
                     Style="{StaticResource menuButton}"
-                    Tag="{StaticResource colorMidleGreen}"
+                    Tag="{StaticResource colorLightGray}"
                     Command="{Binding ShowSchoolClassesCommand }"
                     >
                         <StackPanel Orientation="Horizontal">
@@ -68,7 +68,7 @@
                         </StackPanel>
                     </RadioButton>
                     <RadioButton Style="{StaticResource menuButton}"
-                         Tag="{StaticResource colorMidleGreen}"
+                         Tag="{StaticResource colorLightGray}"
                     Command="{Binding ShowSchoolSubjectsCommand }">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="GraduationCap" Style="{StaticResource menuButtonIcon}"/>
@@ -76,7 +76,7 @@
                         </StackPanel>
                     </RadioButton>
                     <RadioButton Style="{StaticResource menuButton}"
-     Tag="{StaticResource colorMidleGreen}"
+     Tag="{StaticResource colorLightGray}"
 Command="{Binding ShowSchoolGradesCommand }">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="FeatherPointed" Style="{StaticResource menuButtonIcon}"/>
@@ -84,7 +84,7 @@ Command="{Binding ShowSchoolGradesCommand }">
                         </StackPanel>
                     </RadioButton>
                     <RadioButton Style="{StaticResource menuButton}"
-     Tag="{StaticResource colorMidleGreen}"
+     Tag="{StaticResource colorLightGray}"
 Command="{Binding ShowRestaurantPromotionsCommand }">
                         <StackPanel Orientation="Horizontal">
                             <fa:IconImage Icon="Percent" Style="{StaticResource menuButtonIcon}"/>

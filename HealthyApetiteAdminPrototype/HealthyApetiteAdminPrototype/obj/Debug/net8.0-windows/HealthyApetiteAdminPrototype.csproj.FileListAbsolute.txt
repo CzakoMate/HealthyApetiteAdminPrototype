@@ -47,7 +47,6 @@ C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetit
 C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\Styles\SubMenuButtonStyle.baml
 C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\Styles\UIColors.baml
 C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\Controls\BindablePasswordBox.g.cs
-C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\Views\Caption.g.cs
 C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\Views\ControlPanel\ControlPanelView.g.cs
 C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\Views\Header.g.cs
@@ -69,7 +68,6 @@ C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetit
 C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\HealthyApetiteAdminPrototype_MarkupCompile.lref
 C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\App.baml
 C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\Controls\BindablePasswordBox.baml
-C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\Resources\ViewModelViewDataTamplate.baml
 C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\Views\Caption.baml
 C:\Users\c9czamat\Desktop\HA_frontend\HealthyApetiteAdminPrototype\HealthyApetiteAdminPrototype\obj\Debug\net8.0-windows\Views\ControlPanel\ControlPanelView.baml

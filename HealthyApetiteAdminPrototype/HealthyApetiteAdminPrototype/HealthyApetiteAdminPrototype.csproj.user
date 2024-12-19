@@ -60,9 +60,6 @@
     <Page Update="Controls\BindablePasswordBox.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Resources\ViewModelViewDataTamplate.xaml">
       <SubType>Designer</SubType>
     </Page>

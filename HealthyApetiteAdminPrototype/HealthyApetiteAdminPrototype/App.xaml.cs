@@ -7,7 +7,6 @@ using HealthyApetiteAdminPrototype.Views.Login;
 using Microsoft.Extensions.Hosting;
 using HealthyApetiteAdminPrototype.Extensions;
 using System;
-using System.Windows;
 namespace HealthyApetiteAdminPrototype
 {
     /// <summary>

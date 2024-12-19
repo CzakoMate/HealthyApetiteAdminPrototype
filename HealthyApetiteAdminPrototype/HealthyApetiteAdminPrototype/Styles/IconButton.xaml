@@ -20,7 +20,7 @@
         <Style.Triggers>
             <!--Button Style on hover-->
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Foreground" Value="{Binding Path=Tag, RelativeSource={RelativeSource Self}}"/>
+                <Setter Property="Foreground" Value="{StaticResource plainTextColor2}"/>
             </Trigger>
         </Style.Triggers>
     </Style>
